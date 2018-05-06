@@ -5,6 +5,7 @@ import { createLobby, joinLobby, nameChanged,
      lobbyNameChanged ,messageChanged, sendMessage,
      playerReady, submitAnswer } from "../lobby/lobby.action";
 import { Grid, Row, Col } from "react-bootstrap"
+import Canvas from "../canvas/canvas.component"
 
 const mapStateToProps = (state) => {
     return {
@@ -110,7 +111,7 @@ class Lobby extends Component {
             return(
                 <div>
                     <h1>Playing</h1>
-                    <canvas />
+                    <Canvas />
                 </div>
             );
         }else{

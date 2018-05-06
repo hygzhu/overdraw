@@ -18,6 +18,9 @@ const initialState = {
         roomReady: false,
         ready: false,
         gameActive: false,
+      },
+      canvas:{
+        
       }
 };
 
