@@ -20,7 +20,7 @@ const initialState = {
         gameActive: false,
       },
       canvas:{
-        
+        drawing: false,
       }
 };
 

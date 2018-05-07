@@ -5,3 +5,17 @@ export const mouseMove = (x, y) => {
     y: y
   }
 }
+
+export const mouseClick = (status) => {
+  return {
+    type: "MOUSECLICK",
+    drawing: status
+  }
+}
+
+export const setContext = (context) => {
+  return {
+    type: "SETCONTEXT",
+    context: context
+  }
+}
